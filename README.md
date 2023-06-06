@@ -69,9 +69,7 @@ Below some qualitative examples that show the nice performance of our Deep Learn
 
 ### Final Words
 
-This project is an exciting journey into the intersection of computer vision and natural language processing. We hope that this project can serve as a helpful resource for those interested in image captioning, deep learning, and AI in general.
-
-It´s worth to note that our main goal has been always learning as much as we can, that´s why we chose this project, we really thought that would be the most challenging as well as self-rewarding, and so it has been, we put a lot of effort but it paid off completely, regardless of te mark.
+This project is an exciting journey into the intersection of medical texts and natural language processing. We hope that this project can serve as a helpful resource for those interested in Named Entity Recognition, deep learning, and AI in general.
 
 We appreciate having had this experience that has helped us a lot to understand how complicated a real world NLP project can be, but also how exciting it is to get results after having done hard work.
 
