@@ -36,7 +36,7 @@ You can get all the data you will need in the following folder from google drive
   - `decoderRNN`: An LSTM network that generates words recursively using the image features and captions as inputs.
   - `CNNtoRNN`: Combines the functionality of `encoderCNN` and `decoderRNN` to encode images and captions and produce codified sentences.
   
-- **NegMed_Bert.ipynb**: This file contains a function to create data loaders for the project. It includes the following classes:
+- **[NegMed_Bert.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_RuleBased.ipynb)**: This file contains a function to create data loaders for the project. It includes the following classes:
   - `Vocabulary`: Creates the vocabulary by tokenizing words in the captions using the "en_core_web_sm" language model from spacy.
   - `FlickrDataset`: Generates a data loader by loading image filenames, captions, and the vocabulary.
   - `Padding`: Adds padding to captions in a batch to ensure uniform length.
