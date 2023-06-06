@@ -35,14 +35,14 @@ You can get all the data you will need in the following folder from google drive
 ### Files
 
 - **[NegMed_RuleBased.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_RuleBased.ipynb)**: This file contains:
-  - **`data handling`**: Create the groundtruth used for the qualitative evaluation for the negations, uncertainties and its respectives scopes. We have also extracted the texts in order to evaluate out method
-  - `rule based algorithm`: Series of functions in order to detect and extract the negations, uncertainties and its scopes and return the respectives in the same format as the grountruth to then evaluate.
-  - `evaluation`: Quantitative results of the rule-based method, `precision`, `recall` and `f-score`.
+  - **`Data Handling`**: Create the groundtruth used for the qualitative evaluation for the negations, uncertainties and its respectives scopes. We have also extracted the texts in order to evaluate out method
+  - **`Rule Based Algorithm`**: Series of functions in order to detect and extract the negations, uncertainties and its scopes and return the respectives in the same format as the grountruth to then evaluate.
+  - **`Evaluation`**: Quantitative results of the rule-based method, `precision`, `recall` and `f-score`.
   
 - **[NegMed_NER.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_NER.ipynb)**:  This file contains:
-  - `data handling`: We splitted the data in train and validation sets and put it in a serialized format (.spacy) that can be used for training the model from `SpaCy` library.
-  - `Deep Learning based algorithm`: A Name Entity Recognition (**NER**)model with our defined entities that are: `NEG`, `NSCO`, `UNC` and `USCO` (negation, negation scope, uncertainty and uncertainty scope).
-  - `evaluation`: Both quantitaive and qualitative results of the deep learning model, `precision`, `recall` and `f-score` and examples of what returns our model when passing different texts (both medical and from other diverse topics such as legal or sports-related).
+  - **`Data Handling`**: We splitted the data in train and validation sets and put it in a serialized format (.spacy) that can be used for training the model from `SpaCy` library.
+  - **`Deep Learning Based Algorithm`**: A DL based Named Entity Recognition (**NER**)model with our defined entities that are: `NEG`, `NSCO`, `UNC` and `USCO` (negation, negation scope, uncertainty and uncertainty scope).
+  - **`Evaluation`**: Both quantitaive and qualitative results of the deep learning model, `precision`, `recall` and `f-score` and examples of what returns our model when passing different texts (both medical and from other diverse topics such as legal or sports-related).
   
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
 
