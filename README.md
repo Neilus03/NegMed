@@ -32,7 +32,7 @@ You can get all the data you will need in the following folder from google drive
 
 ### Files
 
-- **NegMed_RuleBased.ipynb**: This file contains the structure of the model in different classes. The classes include:
+- **[NegMed_RuleBased.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_RuleBased.ipynb)**: This file contains the structure of the model in different classes. The classes include:
   - `encoderCNN`: A ResNet CNN pretrained on ImageNet that extracts features from the images.
   - `decoderRNN`: An LSTM network that generates words recursively using the image features and captions as inputs.
   - `CNNtoRNN`: Combines the functionality of `encoderCNN` and `decoderRNN` to encode images and captions and produce codified sentences.
