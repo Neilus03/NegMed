@@ -80,7 +80,7 @@ We appreciate having had this experience that has helped us a lot to understand 
 
 
 
-## Contributors
+### Contributors
 
 Authors: **[Neil De La Fuente](https://github.com/Neilus03)** , **[Paula Feliu](https://github.com/paulafeliu)** , **[Roger Garcia](https://github.com/RoysGC)** , **[Daniel Vidal](https://github.com/Dani13vg)**
 
