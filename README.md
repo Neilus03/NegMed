@@ -58,9 +58,14 @@ Below some qualitative examples that show the nice performance of our Deep Learn
 
 ![Screen Shot 2023-06-06 at 6 26 35 PM](https://github.com/Neilus03/NegMed/assets/87651732/58c1219c-24b6-410c-9f80-53f46e599e02)
 
-**2)Medical data outside the original dataset, never seen before by our model**
+**2) Medical data outside the original dataset, never seen before by our model**
 ![Screen Shot 2023-06-06 at 6 27 37 PM](https://github.com/Neilus03/NegMed/assets/87651732/9f787a39-b8dc-4787-8ae1-481799edeac8)
+![Screen Shot 2023-06-06 at 6 30 12 PM (1)](https://github.com/Neilus03/NegMed/assets/87651732/af7ca88f-56c4-41e1-a768-3c991a449242)
 
+**3) Generalization to Law texts**
+![Screen Shot 2023-06-06 at 6 31 14 PM](https://github.com/Neilus03/NegMed/assets/87651732/2868a6aa-eb9d-4a5d-acc4-16cba2b26963)
+**4) Generalization to Sports texts**
+![Screen Shot 2023-06-06 at 6 32 02 PM](https://github.com/Neilus03/NegMed/assets/87651732/77f7e938-72cc-45de-8c30-3fa87e1b2d34)
 
 ### Final Words
 
