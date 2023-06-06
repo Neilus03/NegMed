@@ -49,7 +49,8 @@ You can get all the data you will need in the following folder from google drive
 
 ### Qualitative Evaluation
 
-Our evaluation focuses on two areas: the BLEU score and a visual inspection of the generated captions. The BLEU score gives us a quantitative measure of our model's performance, while the visual inspection of the generated captions lets us qualitatively assess the model's output. The original and generated captions are printed, and the average BLEU score across all images is computed.
+![Screen Shot 2023-06-06 at 6 25 25 PM](https://github.com/Neilus03/NegMed/assets/87651732/7fa1e94b-2f51-4a30-8371-9c0b60172a73)
+
 
 ### Final Words
 
