@@ -4,10 +4,31 @@
 
 Welcome to 'NegMed', on this project we will perform a Comparative Study of Rule-based and Deep Learning Approaches for negation, uncertainty and scope detection in medical documents
 
+## Content
 
-## What is PIXTALES?
+This folder contains the code and files for the Image Captioning project, using a CNN and RNN. 
 
-PIXTALES is a project that uses a combination of Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) to create a model capable of describing the content of images. We utilize the CNN as an "encoder" to transform an input image into a complex feature representation, and the RNN acts as a "decoder", turning those features into a rich, human-readable text. 
+## Table of Contents
+
+- [Files](#Files)
+- [Requirements](#Requirements)
+- [Installation and Usage](#Execution)
+- [Using different datasets](#Using-Different-Datasets)
+- [Configuration](#Trying-Different-Configurations)
+- [APP](#APP)
+- [QUANTITATIVE and QUALITATIVE ANALYSIS](#QUANTITATIVE-and-QUALITATIVE-ANALYSIS)## Content
+
+This folder contains the code and files for the Image Captioning project, using a CNN and RNN. 
+
+## Table of Contents
+
+- [Files](#Files)
+- [Requirements](#Requirements)
+- [Installation and Usage](#Execution)
+- [Using different datasets](#Using-Different-Datasets)
+- [Configuration](#Trying-Different-Configurations)
+- [APP](#APP)
+- [QUANTITATIVE and QUALITATIVE ANALYSIS](#QUANTITATIVE-and-QUALITATIVE-ANALYSIS)
 
 ## Goals
 
@@ -18,6 +39,41 @@ Our Objective is to implement different models with different configurations and
 You can get all the data you will need in the following folder from google drive so you don't need to search for it.
 
 [Image Captioning Data](https://drive.google.com/drive/folders/1skoIZFClsh_Ol-wiwG_Foo53BQF8KOMW?usp=sharing)
+
+
+
+### Files
+
+- **model.py**: This file contains the structure of the model in different classes. The classes include:
+  - `encoderCNN`: A ResNet CNN pretrained on ImageNet that extracts features from the images.
+  - `decoderRNN`: An LSTM network that generates words recursively using the image features and captions as inputs.
+  - `CNNtoRNN`: Combines the functionality of `encoderCNN` and `decoderRNN` to encode images and captions and produce codified sentences.
+
+- **get_loader.py**: This file contains a function to create data loaders for the project. It includes the following classes:
+  - `Vocabulary`: Creates the vocabulary by tokenizing words in the captions using the "en_core_web_sm" language model from spacy.
+  - `FlickrDataset`: Generates a data loader by loading image filenames, captions, and the vocabulary.
+  - `Padding`: Adds padding to captions in a batch to ensure uniform length.
+
+- **utils.py**: This file contains two utility functions:
+  - `save_checkpoint`: Saves the model in a .pth file.
+  - `load_checkpoint`: Loads a pre-trained model from a .pth file.
+
+- **train.py**: This script trains an image captioning model using a CNN-to-RNN architecture. It loads the image and caption datasets, creates data loaders, initializes the model, loss function, and optimizer. The script performs the training loop for a specified number of epochs, logs the training loss using TensorBoard, and saves the final model checkpoint and training loss curve.
+
+- **evaluation.py**: This script evaluates the trained model. It prompts the user to enter the path to the trained model checkpoint, generates captions for sample images, and displays the generated captions, BLEU scores, and ground truth captions for comparison.
+
+### Requirements
+
+To run this project, you need to download the image and caption datasets. The datasets are available for download using the following link: [flickr8k Dataset](https://drive.google.com/drive/folders/1skoIZFClsh_Ol-wiwG_Foo53BQF8KOMW?usp=sharing). Download the training images and captions, as well as the validation images and captions as separate files.
+
+You will also need the following libraries, packages, and frameworks:
+- PyTorch
+- Spacy
+- OS
+- Pandas
+- NumPy
+- PIL (Pillow)
+
 
 ## Getting Started
 
