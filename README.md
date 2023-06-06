@@ -21,6 +21,7 @@ This repository contains the code and report for the NLP project on Negation, Un
 - [Usage](#Execution)
 - [Qualitative Evaluation](#Qualitative-Evaluation)
 - [Final Words](#Final-Words)
+- [Contributors](#Contributors)
 
 
 ### Data
