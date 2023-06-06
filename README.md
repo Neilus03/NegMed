@@ -35,14 +35,14 @@ You can get all the data you will need in the following folder from google drive
 ### Files
 
 - **[NegMed_RuleBased.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_RuleBased.ipynb)**: This file contains:
-  - `data handling`: A ResNet CNN pretrained on ImageNet that extracts features from the images.
-  - `rule based algorithm`: An LSTM network that generates words recursively using the image features and captions as inputs.
-  - `evaluation`: Combines the functionality of `encoderCNN` and `decoderRNN` to encode images and captions and produce codified sentences.
+  - `data handling`: Create the groundtruth used for the qualitative evaluation for the negations, uncertainties and its respectives scopes. We have also extracted the texts in order to evaluate out method
+  - `rule based algorithm`: Series of functions in order to detect and extract the negations, uncertainties and its scopes and return the respectives in the same format as the grountruth to then evaluate.
+  - `evaluation`: Quantitative results of the rule-based method, `precision`, `recall` and `f-score`.
   
 - **[NegMed_NER.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_NER.ipynb)**:  This file contains:
   - `data handling`: A ResNet CNN pretrained on ImageNet that extracts features from the images.
   - `Deep Learning based algorithm`: An LSTM network that generates words recursively using the image features and captions as inputs.
-  - `evaluation`: Combines the functionality of `encoderCNN` and `decoderRNN` to encode images and captions and produce codified sentences.
+  - `evaluation`: Both quantitaive and qualitative results of the deep learning model, `precision`, `recall` and `f-score` and examples of what returns out model when passing different texts (both medical and from other diverse topics such as legal or sports-related).
   
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
 
