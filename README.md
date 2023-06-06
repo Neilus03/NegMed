@@ -41,7 +41,7 @@ You can get all the data you will need in the following folder from google drive
   
 - **[NegMed_Bert.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_Bert.ipynb)**:  This file contains:
   - `data handling`: A ResNet CNN pretrained on ImageNet that extracts features from the images.
-  - `rule based algorithm`: An LSTM network that generates words recursively using the image features and captions as inputs.
+  - `Deep Learning based algorithm`: An LSTM network that generates words recursively using the image features and captions as inputs.
   - `evaluation`: Combines the functionality of `encoderCNN` and `decoderRNN` to encode images and captions and produce codified sentences.
   
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
