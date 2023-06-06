@@ -28,7 +28,7 @@ This repository contains the code and report for the NLP project on Negation, Un
 
 You can get all the data you will need in the following folder from google drive so you don't need to search for it.
 
-[Image Captioning Data](https://drive.google.com/drive/folders/1skoIZFClsh_Ol-wiwG_Foo53BQF8KOMW?usp=sharing)
+[ASHO Data](https://drive.google.com/file/d/1T64hrblTrrFRY6d9vLgFSjkM8Elrl9Vt/view?usp=sharing)
 
 
 
@@ -47,11 +47,11 @@ You can get all the data you will need in the following folder from google drive
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
 
 
-## Qualitative Evaluation
+### Qualitative Evaluation
 
 Our evaluation focuses on two areas: the BLEU score and a visual inspection of the generated captions. The BLEU score gives us a quantitative measure of our model's performance, while the visual inspection of the generated captions lets us qualitatively assess the model's output. The original and generated captions are printed, and the average BLEU score across all images is computed.
 
-## Final Words
+### Final Words
 
 This project is an exciting journey into the intersection of computer vision and natural language processing. We hope that this project can serve as a helpful resource for those interested in image captioning, deep learning, and AI in general.
 
