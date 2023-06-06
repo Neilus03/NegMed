@@ -40,8 +40,8 @@ You can get all the data you will need in the following folder from google drive
   - `evaluation`: Quantitative results of the rule-based method, `precision`, `recall` and `f-score`.
   
 - **[NegMed_NER.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_NER.ipynb)**:  This file contains:
-  - `data handling`: A ResNet CNN pretrained on ImageNet that extracts features from the images.
-  - `Deep Learning based algorithm`: An LSTM network that generates words recursively using the image features and captions as inputs.
+  - `data handling`: We splitted the data in train and validation sets and put it in a serialized format (.spacy) that can be used for training the model from `SpaCy` library.
+  - `Deep Learning based algorithm`: A Name Entity Recognition (**NER**)model with our defined entities that are: `NEG`, `NSCO`, `UNC` and `USCO` (negation, negation scope, uncertainty and uncertainty scope).
   - `evaluation`: Both quantitaive and qualitative results of the deep learning model, `precision`, `recall` and `f-score` and examples of what returns our model when passing different texts (both medical and from other diverse topics such as legal or sports-related).
   
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
