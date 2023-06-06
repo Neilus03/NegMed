@@ -73,7 +73,7 @@ This project is an exciting journey into the intersection of computer vision and
 
 It´s worth to note that our main goal has been always learning as much as we can, that´s why we chose this project, we really thought that would be the most challenging as well as self-rewarding, and so it has been, we put a lot of effort but it paid off completely, regardless of te mark.
 
-We appreciate having had this experience that has helped us a lot to understand how complicated a Deep Learning project can be, but also how exciting it is to get results after having done hard work.
+We appreciate having had this experience that has helped us a lot to understand how complicated a real world NLP project can be, but also how exciting it is to get results after having done hard work.
 
 
 
