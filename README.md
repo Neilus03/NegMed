@@ -50,11 +50,11 @@ You can get all the data you will need in the following folder from google drive
 
 The code in this repository primarily consists of a model implementation (CNNtoRNN), a dataset loading function (get_loader), a utils.py file that is used to save and load the models and a train file for training the model and saving the model with in a pth file called checkpoint; the training uses all previous files. We also have an evaluation.py file that loads a model already trained to do some test and show some examples, it provides utility functions for generating and visualizing image captions and calculating BLEU scores, a popular metric for evaluating the quality of generated text in comparison to reference text. 
 
-## Qualitative_Evaluation
+## Qualitative Evaluation
 
 Our evaluation focuses on two areas: the BLEU score and a visual inspection of the generated captions. The BLEU score gives us a quantitative measure of our model's performance, while the visual inspection of the generated captions lets us qualitatively assess the model's output. The original and generated captions are printed, and the average BLEU score across all images is computed.
 
-## Final_Words
+## Final Words
 
 This project is an exciting journey into the intersection of computer vision and natural language processing. We hope that this project can serve as a helpful resource for those interested in image captioning, deep learning, and AI in general.
 
