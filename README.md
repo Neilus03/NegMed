@@ -48,8 +48,10 @@ You can get all the data you will need in the following folder from google drive
 
 
 ### Qualitative Evaluation
-
+Below some qualitative examples that show the nice performance of our Deep Learning based **NER** model:
 ![Screen Shot 2023-06-06 at 6 25 25 PM](https://github.com/Neilus03/NegMed/assets/87651732/7fa1e94b-2f51-4a30-8371-9c0b60172a73)
+
+![Screen Shot 2023-06-06 at 6 26 35 PM](https://github.com/Neilus03/NegMed/assets/87651732/58c1219c-24b6-410c-9f80-53f46e599e02)
 
 
 ### Final Words
