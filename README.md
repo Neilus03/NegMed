@@ -40,6 +40,7 @@ You can get all the data you will need in the following folder from google drive
   - `Vocabulary`: Creates the vocabulary by tokenizing words in the captions using the "en_core_web_sm" language model from spacy.
   - `FlickrDataset`: Generates a data loader by loading image filenames, captions, and the vocabulary.
   - `Padding`: Adds padding to captions in a batch to ensure uniform length.
+  
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
 
 
