@@ -18,11 +18,10 @@ This repository contains the code and report for the NLP project on Negation, Un
 
 - [Data](#Data)
 - [Files](#Files)
-- [Data](#Requirements)
 - [Usage](#Execution)
 
 
-## Data
+### Data
 
 You can get all the data you will need in the following folder from google drive so you don't need to search for it.
 
@@ -42,17 +41,6 @@ You can get all the data you will need in the following folder from google drive
   - `FlickrDataset`: Generates a data loader by loading image filenames, captions, and the vocabulary.
   - `Padding`: Adds padding to captions in a batch to ensure uniform length.
 
-### Data
-
-To run this project, you need to download the image and caption datasets. The datasets are available for download using the following link: [flickr8k Dataset](https://drive.google.com/drive/folders/1skoIZFClsh_Ol-wiwG_Foo53BQF8KOMW?usp=sharing). Download the training images and captions, as well as the validation images and captions as separate files.
-
-You will also need the following libraries, packages, and frameworks:
-- PyTorch
-- Spacy
-- OS
-- Pandas
-- NumPy
-- PIL (Pillow)
 
 
 ## Code Structure
