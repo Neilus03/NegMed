@@ -35,7 +35,7 @@ You can get all the data you will need in the following folder from google drive
 ### Files
 
 - **[NegMed_RuleBased.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_RuleBased.ipynb)**: This file contains:
-  - `data handling`: Create the groundtruth used for the qualitative evaluation for the negations, uncertainties and its respectives scopes. We have also extracted the texts in order to evaluate out method
+  - **`data handling`**: Create the groundtruth used for the qualitative evaluation for the negations, uncertainties and its respectives scopes. We have also extracted the texts in order to evaluate out method
   - `rule based algorithm`: Series of functions in order to detect and extract the negations, uncertainties and its scopes and return the respectives in the same format as the grountruth to then evaluate.
   - `evaluation`: Quantitative results of the rule-based method, `precision`, `recall` and `f-score`.
   
