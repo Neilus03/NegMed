@@ -80,6 +80,6 @@ Authors: Neil De La Fuente, Paula Feliu, Roger Garcia and Daniel Vidal
 
 Subject: Natural Language Processing.
 
-Degreee in Artificial Intelligence, 2n course.
+Degreee in Artificial Intelligence, 2nd course.
 
 UAB, 2023.
