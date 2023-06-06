@@ -74,7 +74,7 @@ We appreciate having had this experience that has helped us a lot to understand 
 
 ## Contributors
 
-Authors: Neil De La Fuente, Paula Feliu,Roger Garcia and Daniel Vidal
+Authors: Neil De La Fuente, Paula Feliu, Roger Garcia and Daniel Vidal
 
 Subject: Natural Language Processing.
 
