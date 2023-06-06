@@ -47,7 +47,10 @@ You can get all the data you will need in the following folder from google drive
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
 
 
-- **[NegMed Report](https://github.com/Neilus03/NegMed/blob/main/Report%20on%20NLP%20Project%20.pdf)**
+- **[NegMed Report](https://github.com/Neilus03/NegMed/blob/main/Report%20on%20NLP%20Project%20.pdf)** This file contains:
+  - A deep explanation of all our code and project in general along with results and analysis
+- **[NegMed Presentation](https://github.com/Neilus03/NegMed/blob/main/NLP%20Presentation.pdf)** This file contains:
+  - The presentation where we summarizae and show the project and results
 
 ### Qualitative Evaluation
 Below some qualitative examples that show the nice performance of our Deep Learning based **NER** model:
