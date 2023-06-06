@@ -19,6 +19,8 @@ This repository contains the code and report for the NLP project on Negation, Un
 - [Data](#Data)
 - [Files](#Files)
 - [Usage](#Execution)
+- [Qualitative Evaluation](#)
+- [Final Words](#Final_Words)
 
 
 ### Data
@@ -48,7 +50,7 @@ You can get all the data you will need in the following folder from google drive
 
 The code in this repository primarily consists of a model implementation (CNNtoRNN), a dataset loading function (get_loader), a utils.py file that is used to save and load the models and a train file for training the model and saving the model with in a pth file called checkpoint; the training uses all previous files. We also have an evaluation.py file that loads a model already trained to do some test and show some examples, it provides utility functions for generating and visualizing image captions and calculating BLEU scores, a popular metric for evaluating the quality of generated text in comparison to reference text. 
 
-## Model Evaluation
+## Qualitative Evaluation
 
 Our evaluation focuses on two areas: the BLEU score and a visual inspection of the generated captions. The BLEU score gives us a quantitative measure of our model's performance, while the visual inspection of the generated captions lets us qualitatively assess the model's output. The original and generated captions are printed, and the average BLEU score across all images is computed.
 
@@ -62,10 +64,6 @@ We appreciate having had this experience that has helped us a lot to understand 
 
 
 
-## References
-[CS 152 NN—25: Attention: Image Captioning by Neil Rhodes](https://youtu.be/JTXPrjvhLl8)
-
-[Show, Attend and Tell](https://arxiv.org/abs/1502.03044)
 
 
 ## Contributors
