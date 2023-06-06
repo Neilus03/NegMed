@@ -16,14 +16,10 @@ This repository contains the code and report for the NLP project on Negation, Un
 
 ## Table of Contents
 
+- [Data](#Data)
 - [Files](#Files)
 - [Data](#Requirements)
-- [Installation and Usage](#Execution)
-- [Using different datasets](#Using-Different-Datasets)
-- [Configuration](#Trying-Different-Configurations)
-- [APP](#APP)
-- [QUANTITATIVE and QUALITATIVE ANALYSIS](#QUANTITATIVE-and-QUALITATIVE-ANALYSIS)## Content
-
+- [Usage](#Execution)
 
 
 ## Data
