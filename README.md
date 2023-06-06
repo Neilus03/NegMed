@@ -39,7 +39,7 @@ You can get all the data you will need in the following folder from google drive
   - `rule based algorithm`: An LSTM network that generates words recursively using the image features and captions as inputs.
   - `evaluation`: Combines the functionality of `encoderCNN` and `decoderRNN` to encode images and captions and produce codified sentences.
   
-- **[NegMed_Bert.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_Bert.ipynb)**:  This file contains:
+- **[NegMed_NER.ipynb](https://github.com/Neilus03/NegMed/blob/main/NegMed_NER.ipynb)**:  This file contains:
   - `data handling`: A ResNet CNN pretrained on ImageNet that extracts features from the images.
   - `Deep Learning based algorithm`: An LSTM network that generates words recursively using the image features and captions as inputs.
   - `evaluation`: Combines the functionality of `encoderCNN` and `decoderRNN` to encode images and captions and produce codified sentences.
