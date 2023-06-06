@@ -49,7 +49,7 @@ You can get all the data you will need in the following folder from google drive
 
 - **[NegMed Report](https://github.com/Neilus03/NegMed/blob/main/NegMed-Report%20.pdf)** This file contains:
   - A deep explanation of all our code and project in general along with results and analysis
-- **[NegMed Presentation](https://github.com/Neilus03/NegMed/blob/main/NLP%20Presentation.pdf)** This file contains:
+- **[NegMed Presentation](https://github.com/Neilus03/NegMed/blob/main/NegMed-Presentation.pdf)** This file contains:
   - The presentation where we summarizae and show the project and results
 
 ### Qualitative Evaluation
