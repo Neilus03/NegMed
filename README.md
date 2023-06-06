@@ -46,7 +46,8 @@ You can get all the data you will need in the following folder from google drive
   
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
 
--Report
+-
+Report
 
 ### Qualitative Evaluation
 Below some qualitative examples that show the nice performance of our Deep Learning based **NER** model:
