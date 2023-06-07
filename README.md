@@ -46,7 +46,9 @@ You can get all the data you will need in the following folder from google drive
   - 
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
 
-  **Note that the notebooks are already run but if you want to run the notebook about NER from scratch you will need to download this folder to load the model that we fine-tuned if you want to run the code of the tests. Here you can access to the folder:** [**NER Model**](https://drive.google.com/drive/folders/10N04PPava16SlouJeUsBN82W5jgI0Q8z?usp=sharing). You will need to upload the folder with all files inside in the notebook to load the model.
+  **Note that the notebooks are already run but if you want to run the notebook about NER from scratch you will need to download this folder to load the model that we fine-tuned if you want to run the code of the tests. Here you can access to the folder:** [**NER Model**](https://drive.google.com/drive/folders/10N04PPava16SlouJeUsBN82W5jgI0Q8z?usp=sharing). You will need to upload the folder with all files inside in the notebook to load the model. 
+  
+  If you want to run the trainig of the model you will need to load the configuration file `config.cfg` that you have in this repository.
   
 - **[NegMed Report](https://github.com/Neilus03/NegMed/blob/main/NegMed-Report%20.pdf)** This file contains:
   - A deep explanation of all our code and project in general along with results and analysis
