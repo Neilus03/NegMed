@@ -43,10 +43,11 @@ You can get all the data you will need in the following folder from google drive
   - **`Data Handling`**: We splitted the data in train and validation sets and put it in a serialized format (.spacy) that can be used for training the model from `SpaCy` library.
   - **`Deep Learning Based Algorithm`**: A DL based Named Entity Recognition (**NER**)model with our defined entities that are: `NEG`, `NSCO`, `UNC` and `USCO` (negation, negation scope, uncertainty and uncertainty scope).
   - **`Evaluation`**: Both quantitaive and qualitative results of the deep learning model, `precision`, `recall` and `f-score` and examples of what returns our model when passing different texts (both medical and from other diverse topics such as legal or sports-related).
-  
+  - 
   **DOWNLOAD THE NOTEBOOK AND OPEN IT IN COLAB FOR A BETTER VISUALIZATION**
 
-
+  **You will need to download this folder to load the model that we fine-tuned if you want to run the code of the tests in the notebook about NER. Here you can access to the folder:** [**NER Model**](https://drive.google.com/drive/folders/10N04PPava16SlouJeUsBN82W5jgI0Q8z?usp=sharing). You will need to upload the folder with all files inside in the notebook to load the model  
+  
 - **[NegMed Report](https://github.com/Neilus03/NegMed/blob/main/NegMed-Report%20.pdf)** This file contains:
   - A deep explanation of all our code and project in general along with results and analysis
 - **[NegMed Presentation](https://github.com/Neilus03/NegMed/blob/main/NegMed-Presentation.pdf)** This file contains:
