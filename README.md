@@ -85,7 +85,7 @@ We appreciate having had this experience that has helped us a lot to understand 
 
 ### Contributors
 
-Authors: **[Neil De La Fuente](https://github.com/Neilus03)** , **[Paula Feliu](https://github.com/paulafeliu)** , **[Roger García](https://github.com/RoysGC)** , **[Daniel Vidal](https://github.com/Dani13vg)**
+Authors: **[Neil de la Fuente](https://github.com/Neilus03)** , **[Paula Feliu](https://github.com/paulafeliu)** , **[Roger García](https://github.com/RoysGC)** , **[Daniel Vidal](https://github.com/Dani13vg)**
 
 Subject: Natural Language Processing.
 
