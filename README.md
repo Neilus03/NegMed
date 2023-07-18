@@ -26,7 +26,7 @@ This repository contains the code and report for the NLP project on Negation, Un
 
 ### Data
 
-You can get all the data you will need in the following folder from google drive so you don't need to search for it.
+You can get all the data you will need in the following folder from google drive so you don't need to search for it (Asho's data, rights reserved).
 
 [ASHO Data](https://drive.google.com/file/d/1T64hrblTrrFRY6d9vLgFSjkM8Elrl9Vt/view?usp=sharing)
 
