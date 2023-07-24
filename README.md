@@ -87,8 +87,3 @@ We appreciate having had this experience that has helped us a lot to understand 
 
 Authors: **[Neil de la Fuente](https://github.com/Neilus03)** , **[Paula Feliu](https://github.com/paulafeliu)** , **[Roger García](https://github.com/RoysGC)** , **[Daniel Vidal](https://github.com/Dani13vg)**
 
-Subject: Natural Language Processing.
-
-Degreee in Artificial Intelligence, 2nd course.
-
-UAB, 2023.
