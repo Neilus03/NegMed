@@ -1,10 +1,10 @@
 
 
 # NegMed: Leveraging NLP Techniques for Negation and Uncertainty Detection in Medical Texts
-
+ 
 Welcome to 'NegMed', on this project we will perform a Comparative Study of Rule-based and Deep Learning Approaches for negation, uncertainty and scope detection in medical documents
 
-
+  
 ## Goals
 
 Our Objective is to implement two different methods with which we are able to achieve the detection of Uncertainties, Negations and scopes.
